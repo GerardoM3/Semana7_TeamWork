@@ -1,0 +1,13 @@
+CREATE DATABASE bd_estudiantes;
+
+USE bd_estudiantes;
+
+CREATE TABLE tb_estudiante(
+    id_estudiante int NOT NULL AUTO_INCREMENT,
+    carnet_estudiante varchar(6) DEFAULT NULL,
+    nom_estudiante varchar(30) DEFAULT NULL,
+    ape_estudiante varchar(30) DEFAULT NULL,
+    edad_estudiante int DEFAULT NULL,
+    PRIMARY KEY (id_estudiante)
+)
+ENGINE=INNODB AUTO_INCREMENT=1001
